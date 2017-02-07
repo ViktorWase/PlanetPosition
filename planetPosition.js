@@ -52,7 +52,6 @@ var planetPosition = {
    *
    *  @param {number} t - time measured in years since the birth of Christ. (or milliseconds since
    *    1 Jan 1970 0:00 if unix_time is used)
-   *  options: a dictionary with the options unix_time, icrf, circular.
    *
    *  @param {dictionary} options - the options should be sent in a dictionary. For example:
    *  {icrf:true, unix_time:true} if one wishes to calculate using unix time and
